@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+h1 {
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    color: #00ffff;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-color: #000;
+}
+
+button {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #7fffd4;
+    border: 10px 10px #00ff88;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    cursor: pointer;
+}
+
+div {
+
+
+    display: inline-block;
+}

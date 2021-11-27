@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Estilos/cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="content">
+        <form action="">
+            <fieldset>
+                <legend>DadosPessoais</legend>
+                <div class="line">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite sue nome" autocomplete="off" required>
+                </div>
+
+                <div class="line">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" autocomplete="off" required>
+                </div>
+
+                <div class="line">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" autocomplete="off" required>
+                </div>
+
+                <div class="line">
+                    <label for="telefone">
+                        Telefone
+                    </label>
+                    <input type="number" id="telefone" name="telefone" placeholder="Telefone" class="input-user" required> 
+                </div>
+
+                <div class="line">
+                    <label for="dtnasc">Data de Nascimento</label>
+                    <input type="date" id="dtnasc" name="dtnasc">
+                </div>
+
+                <div class="line">
+                    <label for="CPF">CPF</label>
+                    <input type="number" id="cpf" name="cpf" placeholder="CPF">
+                </div>
+
+                <div class="line">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="Senha"  placeholder="Digite sua senha">
+                </div>
+
+                <div class="line">
+                    <label for="confirmSenha">Confirme sua Senha</label>
+                    <input type="password" id="confirmSenha" placeholder="Confirme sua Senha">
+                </div>
+            </fieldset>
+            <div class="button">
+                <input type="submit">
+                <a href="index.html">Voltar ao início</a>
+            </div>
+        </form>
+    </div>
+   
+</body>
+</html>

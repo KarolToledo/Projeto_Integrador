@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 100%;
+    color: #00cdd1;
+    line-height: 1.5;
+    background-color: black;
+}
+
+.content {
+    background-color: black;
+    width: 720px;
+    padding: 20px;
+    margin: 20px auto auto;
+    box-shadow: 0px 5px 5px 5px;
+    border-radius: 15px;
+}
+
+.line {
+    padding: 5px;
+}
+
+fieldset {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-color: rgb(132, 41, 218);
+    box-shadow: 2px 2px 2px #00cdd1;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input {
+    padding: 3px;
+    color: rgb(5, 78, 69);
+}
+
+input[id="dtnasc"]{
+    width: 180px;
+    background-color: rgb(15, 15, 15);
+
+}
+
+legend {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::placeholder {
+    color: rgb(5, 78, 69);
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    background: #7fffd4;
+    width: 100px;
+    padding: 16px 0px;
+    margin: 0;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px -12px #00cdd1;
+    text-align: center;
+}
+
+a {
+    text-align: right;
+}
