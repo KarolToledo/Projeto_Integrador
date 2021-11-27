@@ -1,32 +1,52 @@
 @charset "UTF-8";
 
-h1 {
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
-    color: #00ffff;
-    text-align: center;
-    padding: 10px;
+    font-size: 100%;
+    color: #00cdd1;
+    line-height: 1.5;
+    background-color: black;
 }
 
-body {
-    background-color: #000;
+.content {
+    background-color: black;
+    width: 720px;
+    padding: 20px;
+    margin: 30px auto auto;
+    box-shadow: 0px 5px 5px 5px;
+    border-radius: 15px;
+}
+
+fieldset {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-color: rgb(132, 41, 218);
+    box-shadow: 2px 2px 2px #00cdd1;
+}
+
+.button ,.button2 {
+    text-align: center;
+    cursor: pointer;
 }
 
 button {
-    display: inline-block;
-    width: 200px;
-    height: 150px;
-    border-radius: 10px;
-    background-color: #7fffd4;
-    border: 10px 10px #00ff88;
+    background: #7fffd4;
+    font-size: 6pt;
+    width: 120px;
+    padding: 16px 0px;
+    margin: 15px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
     color: #2b134b;
     cursor: pointer;
-}
-
-div {
-
-
-    display: inline-block;
+    box-shadow: 0px 10px 20px -12px #00cdd1;
+    text-align: center;
 }
